@@ -18,7 +18,7 @@ strong
 
 .corps
 {
-    margin: 100px 300px;
+    margin: 50px 300px;
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,20 +26,25 @@ strong
 }
 
 
+
 .corps h3
 {
     font-size: 50px;
+    text-align: center;
+    margin-bottom: 50PX;
 }
 
-a
 
-{
-    color: white;
-
-}
 
 img
 {
-    
+    border-style: solid;
+    border-width: 1px;
     border-radius: 5%;
+}
+
+.marg-album
+
+{
+    margin: 50px;
 }
