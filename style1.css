@@ -5,6 +5,8 @@ body
     background-image: url(couche.jpg);
     background-position: center;
     background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: cover;
     color: rgb(255, 255, 255);
 }
 
@@ -49,9 +51,15 @@ img
     margin: 50px;
 }
 
-.corps-projets
+.bouton-download
 
 {
-    padding-bottom: 150px;
+    text-align: center;
+}
+
+#bas
+
+{
+    position:absolute; bottom: 5px; right: 100px; left: 100px;
     
 }
